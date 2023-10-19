@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChatBooks</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="servers">
+      <div class="logo">
+        <img src="assets/logo.jpg" alt="Discord" />
+      </div>
+      <div class="server-logo">
+        <span class="message__count">8</span>
+        <img src="assets/server1.jpg" alt="server" />
+      </div>
+      <div class="server-logo">
+        <span class="message__count">50</span>
+        <img src="assets/server2.jpg" alt="server" />
+      </div>
+      <div class="server-logo">
+        <span class="message__count">1150</span>
+        <img src="assets/server3.jpg" alt="server" />
+      </div>
+      <div class="server-logo">
+        <span class="message__count">50</span>
+        <img src="assets/server4.jpg" alt="server" />
+      </div>
+      <div class="server-logo">
+        <span class="message__count">5</span>
+        <img src="assets/server5.jpg" alt="server" />
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <div class="sidebar__top">
+        <input type="text" placeholder="Find or start a conversation" />
+      </div>
+      <div class="sidebar__icon">
+        <span>Friends</span>
+      </div>
+      <div class="sidebar__users">
+        <div class="sidebar__usersHeader">
+          <div class="sidebar__header">
+            <h3>Direct Messages</h3>
+          </div>
+        </div>
+        <div>
+          <div class="sidebar__user">
+            <div>
+              <span class="status"></span>
+              <img src="assets/user1.jpg" alt="avatar" />
+            </div>
+            <h4>Mike Rafone</h4>
+          </div>
+          <div class="sidebar__user">
+            <div>
+              <span class="status"></span>
+              <img src="assets/user2.jpg" alt="avatar" />
+            </div>
+            <h4> Tasha Stevens </h4>
+          </div>
+          <div class="sidebar__user">
+            <div>
+              <span class="status"></span>
+              <img src="assets/user3.jpg" alt="avatar" />
+            </div>
+            <h4> David Mordecai</h4>
+          </div>
+        </div>
+      </div>
+      <div class="sidebar__profile">
+        <div>
+          <span class="status"></span>
+          <img src="assets/user4.jpg" alt="avatar" />
+        </div>
+        <div class="sidebar__profileInfo">
+          <h3>Gamer</h3>
+          <p>#4363</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="chat">
+      <div>
+        <div class="chatHeader">
+          <div class="chatHeader__left">
+            <span class="chatHeader__Dm">@</span>
+            <h3>MikeRafone</h3>
+          </div>
+          <div class="chatHeader__right">
+            <div class="search">
+              <input type="text" placeholder="search" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="chat__messages">
+        <div class="message">
+          <img src="assets/user1.jpg" alt="avatar" />
+          <div class="message__info">
+            <h4>
+              Mike Rafone <span class="message__timestamp">18/10/2023</span>
+            </h4>
+            <p>Hello</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="chat__input">
+        <form>
+          <input class="sendMessage" type="text" placeholder="Type a message..." />
+          <button class="chat__inputButton" type="submit">Send</button>
+        </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
